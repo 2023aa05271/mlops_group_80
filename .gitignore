@@ -1,0 +1,14 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+
+# DVC-specific files
+# .dvc/
+# !.dvc
+
+# Ignore MLflow tracking logs
+mlruns/
+/data
